@@ -4,8 +4,8 @@
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
-Summary:	%{_pearname} - Read and write fstab files
-Summary(pl):	%{_pearname} - Odczyt i zapis plików fstab
+Summary:	%{_pearname} - read and write fstab files
+Summary(pl):	%{_pearname} - odczyt i zapis plików fstab
 Name:		php-pear-%{_pearname}
 Version:	1.0.4
 Release:	1
