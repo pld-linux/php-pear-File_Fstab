@@ -1,6 +1,6 @@
 %include	/usr/lib/rpm/macros.php
-%define         _class          File
-%define         _subclass       Fstab
+%define		_class		File
+%define		_subclass	Fstab
 %define		_status		stable
 %define		_pearname	%{_class}_%{_subclass}
 
