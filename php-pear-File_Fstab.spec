@@ -23,12 +23,12 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 File_Fstab is an easy-to-use package which can read & write UNIX fstab
 files. It presents a pleasant object-oriented interface to the fstab.
 Features:
-* Supports blockdev, label, and UUID specification of mount device.
-* Extendable to parse non-standard fstab formats by defining a new
+- Supports blockdev, label, and UUID specification of mount device.
+- Extendable to parse non-standard fstab formats by defining a new
   Entry class for that format.
-* Easily examine and set mount options for an entry.
-* Stable, functional interface.
-* Fully documented with PHPDoc.
+- Easily examine and set mount options for an entry.
+- Stable, functional interface.
+- Fully documented with PHPDoc.
 
 This class has in PEAR status: %{_status}.
 
