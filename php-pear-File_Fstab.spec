@@ -32,10 +32,19 @@ Features:
 
 This class has in PEAR status: %{_status}.
 
-#%description -l pl
-#...
-#
-#Ta klasa ma w PEAR status: %{_status}.
+%description -l pl
+File_Fstab to ³atwy w u¿yciu pakiet odczytuj±cy i zapisuj±cy uniksowe
+pliki fstab. Oferuje on mi³y zorientowany obiektowo interfejs do
+fstaba. Cechy pakietu:
+- obs³uguje okre¶lanie urz±dzenia poprzez urz±dzenie blokowe, etykietê
+  i UUID
+- rozszerzalny w celu analizy niestandardowych formatów fstab poprzez
+  zdefiniowanie nowej klasy Entry dla danego formatu
+- ³atwe sprawdzanie i ustawianie opcji montowania dla danej pozycji
+- stabilny, funkcjonalny interfejs
+- w pe³ni udokumentowany przy u¿yciu PHPDoc.
+
+Ta klasa ma w PEAR status: %{_status}.
 
 %prep
 %setup -q -c
