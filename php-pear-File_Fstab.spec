@@ -30,7 +30,7 @@ Features:
 - Stable, functional interface.
 - Fully documented with PHPDoc.
 
-This class has in PEAR status: %{_status}.
+In PEAR status of this package is: %{_status}.
 
 %description -l pl
 File_Fstab to ³atwy w u¿yciu pakiet odczytuj±cy i zapisuj±cy uniksowe
