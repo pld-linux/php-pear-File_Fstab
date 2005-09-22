@@ -7,12 +7,12 @@
 Summary:	%{_pearname} - read and write fstab files
 Summary(pl):	%{_pearname} - odczyt i zapis plików fstab
 Name:		php-pear-%{_pearname}
-Version:	2.0.1
-Release:	2.1
+Version:	2.0.2
+Release:	1
 License:	PHP 3.0
 Group:		Development/Languages/PHP
 Source0:	http://pear.php.net/get/%{_pearname}-%{version}.tgz
-# Source0-md5:	8d71e9697d9a8986b8817d470b074a02
+# Source0-md5:	39eb66d6d26cd8cecc9c01dc002365f5
 URL:		http://pear.php.net/package/File_Fstab/
 BuildRequires:	rpm-php-pearprov >= 4.4.2-11
 Requires:	php-pear
