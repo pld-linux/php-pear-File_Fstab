@@ -5,7 +5,7 @@
 %define		_pearname	%{_class}_%{_subclass}
 
 Summary:	%{_pearname} - read and write fstab files
-Summary(pl):	%{_pearname} - odczyt i zapis plików fstab
+Summary(pl.UTF-8):   %{_pearname} - odczyt i zapis plikÃ³w fstab
 Name:		php-pear-%{_pearname}
 Version:	2.0.2
 Release:	3
@@ -35,17 +35,17 @@ Features:
 
 In PEAR status of this package is: %{_status}.
 
-%description -l pl
-File_Fstab to ³atwy w u¿yciu pakiet odczytuj±cy i zapisuj±cy uniksowe
-pliki fstab. Oferuje on mi³y zorientowany obiektowo interfejs do
+%description -l pl.UTF-8
+File_Fstab to Å‚atwy w uÅ¼yciu pakiet odczytujÄ…cy i zapisujÄ…cy uniksowe
+pliki fstab. Oferuje on miÅ‚y zorientowany obiektowo interfejs do
 fstaba. Cechy pakietu:
-- obs³uguje okre¶lanie urz±dzenia poprzez urz±dzenie blokowe, etykietê
+- obsÅ‚uguje okreÅ›lanie urzÄ…dzenia poprzez urzÄ…dzenie blokowe, etykietÄ™
   i UUID
-- rozszerzalny w celu analizy niestandardowych formatów fstab poprzez
+- rozszerzalny w celu analizy niestandardowych formatÃ³w fstab poprzez
   zdefiniowanie nowej klasy Entry dla danego formatu
-- ³atwe sprawdzanie i ustawianie opcji montowania dla danej pozycji
+- Å‚atwe sprawdzanie i ustawianie opcji montowania dla danej pozycji
 - stabilny, funkcjonalny interfejs
-- w pe³ni udokumentowany przy u¿yciu PHPDoc.
+- w peÅ‚ni udokumentowany przy uÅ¼yciu PHPDoc.
 
 Ta klasa ma w PEAR status: %{_status}.
 
