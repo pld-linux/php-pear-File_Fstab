@@ -1,4 +1,3 @@
-%include	/usr/lib/rpm/macros.php
 %define		_status		stable
 %define		_pearname	File_Fstab
 Summary:	%{_pearname} - read and write fstab files
